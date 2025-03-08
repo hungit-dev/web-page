@@ -1,6 +1,7 @@
 * {
     background: white;
     border: 1px black solid;
+   
     
 }
 .container-header {
@@ -56,4 +57,35 @@ ul {
 }
 .text {
     width :120px;
+}
+.container-hero-2 {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+.author-box {
+    display: flex;
+    justify-content: flex-end;
+}
+.contai-all-hero-3 {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.container-hero-3 {
+    display: flex;
+    gap: 50px;
+    box-sizing: border-box;  
+    padding: 60px; 
+}
+.box-hero-3-left {
+    flex-grow: 1;
+}
+.footer {
+    display: flex;
+    padding: 40px;
+    justify-content: center;
 }
