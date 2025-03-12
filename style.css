@@ -1,16 +1,75 @@
 * {
     background: white;
-    border: 1px black solid;
-   
-    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+.header-color {
+    background-color: #1f2937;
+}
+.header-logo {
+    font-size: 24px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-weight: 700;
+}
+.this-is-a-placeholder-for-an-image{
+    background-color: grey;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 .container-header {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    padding: 100px;
-   
-    
+    gap: 100px;
+    padding: 200px;
+   padding-top: 20px;
+   box-sizing: border-box;   
+}
+#first-line-intro {
+    font-size: 48px;
+    font-weight: 900;
+    background-color: #1f2937;
+    color: #f9faf8;
+    width: 300px;
+}
+li {
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #1f2937;
+}
+#first-line-intro {
+    font-size: 48px;
+    font-weight: 900;
+    background-color: #1f2937;
+    color: #f9faf8;
+    width: 300px;
+}
+#second-line-intro {
+    font-size: 18px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    width: 400px;
+}
+.this-is-a-placeholder-for-an-image{
+    background-color: grey;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+button {
+    padding: 10px;
+    background-color: #3882f6;
+    font-size: 20px;
+    color: #e5e7eb;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.container-header {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 200px;
+   padding-top: 20px;
+   box-sizing: border-box;   
 }
     
 .link-box {
@@ -25,31 +84,57 @@ ul {
 }
 .Introduction {
     display: flex;
+    gap: 30px;
+}
+.box-intro-left {
+    width: 50%
+
 }
 .box-intro-right {
     flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: grey;
+    width: 50%;
 }
 .container-hero-1 {
     display: flex;
     flex-direction: column;
     padding: 50px;
+    gap: 30px;
+    padding-bottom: 100px;
    
+}
+.text {
+    text-align: center;
+    color: gray
+    
+}
+.some-random-information {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 .box {
     height: 120px;
     width: 120px;
+    border: 5px #3882f6 solid;
+    border-radius: 15px;
+    box-sizing: border-box;
 }
 .boxes-all {
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
+    
+} 
 .boxes {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
+
+    
 }
 .title-box {
     display: flex;
@@ -58,16 +143,32 @@ ul {
 .text {
     width :120px;
 }
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.hero-2-color {
+    background-color: #e5e7eb;
+}
 .container-hero-2 {
-    padding: 100px;
+    
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
-
+    box-sizing: border-box; 
+    width: 750px;
+    padding: 60px;
 }
+.container-hero-2-box {
+    display: flex;
+    justify-content: center;
+}
+
+
 .author-box {
     display: flex;
     justify-content: flex-end;
+    
 }
 .contai-all-hero-3 {
     padding: 100px;
@@ -81,11 +182,31 @@ ul {
     box-sizing: border-box;  
     padding: 60px; 
 }
+.hero-3-color {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+.call-to-action {
+    background-color: #3882f6;
+    font-size: 20px;
+    font-weight: 200
+}
+.sign-up-product {
+    background-color: #3882f6;
+   
+}
 .box-hero-3-left {
     flex-grow: 1;
+}
+#button-2 {
+    border: 3px solid white;
 }
 .footer {
     display: flex;
     padding: 40px;
     justify-content: center;
 }
+.copy-right {
+    background-color: #1f2937;
+}
+/* try to sort it out into the same properties */
